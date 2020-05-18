@@ -5,4 +5,4 @@ names(power) <- c("Date","Time","Global_active_power","Global_reactive_power","V
 subsetDataSet <- subset(power,power$Date=="1/2/2007" | power$Date =="2/2/2007")
 
 hist(as.numeric(as.character(subsetDataSet$Global_active_power)),col="red",main="Global Active Power",xlab="Global Active Power(kilowatts)")
-title(main="Global Active Power")
+title(main="Global Active Power ")
